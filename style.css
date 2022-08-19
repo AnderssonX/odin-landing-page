@@ -1,0 +1,145 @@
+body {
+    margin: auto;
+    padding: auto;
+    background-color: bisque;
+
+}
+.header {
+    background-color: bisque;
+    display: flex;
+
+    align-items: center;
+    justify-content: flex-end;
+    padding-left: 15%;
+padding-right: 15%;
+padding-bottom: 24px;
+}
+
+.header-left {
+    
+}
+
+.header-right {
+    margin-left: auto;
+    
+}
+
+.hero-right img {
+    max-width: 300px;
+}
+
+.hero {
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 24px;
+}
+
+.content {
+    background-color: white;
+    padding-left: 15%;
+    padding-right: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.content-info {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content img {
+    width: 200px;
+}
+
+.quote {
+    background-color: darksalmon;
+    padding-left: 15%;
+    padding-right: 15%;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    align-items: center;
+}
+
+
+.quote-text {
+    font-size: 22px;
+    font-weight: 100;
+    font-style: italic;
+
+}
+
+.quote-author {
+    font-size: 14px;
+    font-weight: bold;
+text-align: right;    
+}
+
+.cta-box {
+    background-color: white;
+    padding: 100px;
+}
+.cta {
+    
+    
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(112, 112, 234);
+    display: flex;
+    border-radius: 12px;
+    
+    align-items: center;
+    
+    justify-content: flex-end;
+}
+
+.cta-left {
+padding-left: 10%;
+}
+
+.cta-right {
+    padding-right: 10%;
+    margin-left: auto;
+}
+
+.cta-left h1 {
+    margin-bottom: -15px;
+}
+.footer {
+    
+    
+    background-color: bisque;
+
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+button {
+    border-radius: 12px;
+    color: azure;
+    background-color: darkslategrey;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 12px;
+    border-style: none;
+}
