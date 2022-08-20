@@ -57,11 +57,19 @@ background-color: #FF5722;
 }
 
 .hero-right img {
-    max-width: 300px;
+    
     border-radius: 12px;
-    margin-left: 150px;
     
     
+    
+}
+
+.hero-left {
+margin-right: 50px;
+}
+
+.hero-right {
+margin-left: 50px;
 }
 
 .hero {
@@ -192,6 +200,12 @@ button {
     font-weight: bold;
     padding: 12px;
     border-style: none;
+    
+}
+
+button:hover {
+    background-color: white;
+    color: #FF5722;
 }
 
 .cta button {
