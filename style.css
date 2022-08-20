@@ -111,10 +111,13 @@ border-radius: 12px;
     flex-direction: column;
     width: auto;
     align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 
 .quote-text {
+    
     font-family: Roboto-light;
     font-size: 22px;
     
