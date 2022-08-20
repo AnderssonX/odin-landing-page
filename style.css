@@ -1,11 +1,11 @@
 body {
     margin: auto;
     padding: auto;
-    background-color: #1F2937;
+    background-color: #455A64;
 font-family: Roboto;
 }
 .header {
-    background-color: #1F2937;
+    background-color: #455A64;
     display: flex;
 color: white;
     align-items: center;
@@ -61,7 +61,7 @@ text-decoration: none;
 }
 
 .hero {
-    background-color: #1F2937;
+    background-color: #455A64;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -135,7 +135,7 @@ text-align: right;
 }
 .cta {
     
-    background-color: #3882f6;
+    background-color: #FF5722;
     margin-left: 10%;
     margin-right: 10%;
     padding-top: 24px;
@@ -165,7 +165,7 @@ padding-left: 10%;
     padding-top: 24px;
     padding-bottom: 24px;
     
-    background-color: #1F2937;
+    background-color: #455A64;
 color: white;
     
     display: flex;
@@ -177,7 +177,7 @@ color: white;
 
 button {
     border-radius: 12px;
-    background-color: #3882f6;
+    background-color: #FF5722;
     color: white;
     font-size: 24px;
     font-weight: bold;
