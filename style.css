@@ -35,10 +35,6 @@ h1 {
     
 }
 
-.hero-right img {
-    border-radius: 12px;
-    margin-left: 12px;
-}
 
 .header a {
     margin-left: 12px;
@@ -58,6 +54,10 @@ text-decoration: none;
 
 .hero-right img {
     max-width: 300px;
+    border-radius: 12px;
+    margin-left: 150px;
+    
+    
 }
 
 .hero {
