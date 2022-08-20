@@ -2,7 +2,7 @@ body {
     margin: auto;
     padding: auto;
     background-color: #455A64;
-font-family: Roboto;
+    Font-family: 'Roboto', sans-serif;
 }
 .header {
     background-color: #455A64;
@@ -15,9 +15,9 @@ padding-right: 15%;
 padding-bottom: 24px;
 }
 
-.logo {
-    color: #f9faf8;
+.logo {
     font-size: 24px;
+    font-weight: bold;
 }
 
 h1 {
@@ -41,10 +41,13 @@ h1 {
     color: #e5e7eb;
     font-size: 18px;
 text-decoration: none;
+Font-family: 'Roboto', sans-serif;
+font-weight: 100;
 }
 
 a:hover{
 text-decoration: none;
+background-color: #FF5722;
 }
 
 .header-right {
@@ -120,9 +123,9 @@ border-radius: 12px;
 
 .quote-text {
     
-    font-family: Roboto-light;
+    Font-family: 'Roboto', sans-serif;
     font-size: 22px;
-    
+    font-weight: 100;
     font-style: italic;
 
 }
