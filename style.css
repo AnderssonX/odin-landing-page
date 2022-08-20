@@ -1,13 +1,13 @@
 body {
     margin: auto;
     padding: auto;
-    background-color: bisque;
-
+    background-color: #1F2937;
+font-family: Roboto;
 }
 .header {
-    background-color: bisque;
+    background-color: #1F2937;
     display: flex;
-
+color: white;
     align-items: center;
     justify-content: flex-end;
     padding-left: 15%;
@@ -15,8 +15,40 @@ padding-right: 15%;
 padding-bottom: 24px;
 }
 
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+h1 {
+    color: white;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+
+
 .header-left {
     
+}
+
+.hero-right img {
+    border-radius: 12px;
+    margin-left: 12px;
+}
+
+.header a {
+    margin-left: 12px;
+    color: #e5e7eb;
+    font-size: 18px;
+text-decoration: none;
+}
+
+a:hover{
+text-decoration: none;
 }
 
 .header-right {
@@ -29,7 +61,7 @@ padding-bottom: 24px;
 }
 
 .hero {
-    background-color: bisque;
+    background-color: #1F2937;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,6 +70,9 @@ padding-bottom: 24px;
     padding-bottom: 24px;
 }
 
+.hero p {
+       color: #e5e7eb;
+}
 .content {
     background-color: white;
     padding-left: 15%;
@@ -65,12 +100,13 @@ padding-bottom: 24px;
 }
 .content img {
     width: 200px;
+border-radius: 12px;
 }
 
 .quote {
-    background-color: darksalmon;
-    padding-left: 15%;
-    padding-right: 15%;
+    background-color: #e5e7eb;
+    padding-left: 30%;
+    padding-right: 30%;
     display: flex;
     flex-direction: column;
     width: auto;
@@ -79,11 +115,13 @@ padding-bottom: 24px;
 
 
 .quote-text {
+    font-family: Roboto-light;
     font-size: 22px;
-    font-weight: 100;
+    
     font-style: italic;
 
 }
+
 
 .quote-author {
     font-size: 14px;
@@ -97,10 +135,11 @@ text-align: right;
 }
 .cta {
     
-    
+    background-color: #3882f6;
     margin-left: 10%;
     margin-right: 10%;
-    background-color: rgb(112, 112, 234);
+    padding-top: 24px;
+    padding-bottom: 24px;
     display: flex;
     border-radius: 12px;
     
@@ -110,6 +149,7 @@ text-align: right;
 }
 
 .cta-left {
+    color: white;
 padding-left: 10%;
 }
 
@@ -122,10 +162,11 @@ padding-left: 10%;
     margin-bottom: -15px;
 }
 .footer {
+    padding-top: 24px;
+    padding-bottom: 24px;
     
-    
-    background-color: bisque;
-
+    background-color: #1F2937;
+color: white;
     
     display: flex;
     flex-direction: column;
@@ -136,10 +177,19 @@ padding-left: 10%;
 
 button {
     border-radius: 12px;
-    color: azure;
-    background-color: darkslategrey;
+    background-color: #3882f6;
+    color: white;
     font-size: 24px;
     font-weight: bold;
     padding: 12px;
     border-style: none;
+}
+
+.cta button {
+    border: 2px solid white;
+}
+
+.content h1 {
+    font-size: 36px;
+    color: #1F2937;
 }
