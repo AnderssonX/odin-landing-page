@@ -45,11 +45,12 @@ Font-family: 'Roboto', sans-serif;
 font-weight: 100;
 }
 
-a:hover{
+.header a:hover{
 text-decoration: none;
 background-color: #FF5722;
 
 }
+
 
 .header-right {
     margin-left: auto;
@@ -215,4 +216,19 @@ button:hover {
 .content h1 {
     font-size: 36px;
     color: #1F2937;
+}
+
+.info a {
+    text-decoration: none;
+
+    color: black;
+}
+
+.info p a:hover{
+    background-color: #FF5722;
+    color: white;
+    
+}
+.info .info-image a:hover{
+    background-color: white;
 }
